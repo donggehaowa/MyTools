@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Tools'
-  s.version = '0.0.1'
+  s.version = '1.0'
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.license = 'MIT'
