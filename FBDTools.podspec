@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|  
   s.name = 'FBDTools'
-  s.version = '0.1'
+  s.version = '0.1.1'
   s.platform = :ios, '8.0'
   s.ios.platform = :ios, '9.0'
   s.license = 'MIT'
