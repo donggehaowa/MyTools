@@ -11,6 +11,9 @@
  *
  */
 #import "FBDAdjustAuthorityTools.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVCaptureDevice.h>
+#import <AVFoundation/AVMediaFormat.h>
 static FBDAdjustAuthorityTools*sigleTone;
 @implementation FBDAdjustAuthorityTools
 
