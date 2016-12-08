@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|  
   s.name = 'FBDTools'
-  s.version = '0.1.1'
+  s.version = '0.1.2'
   s.platform = :ios, '8.0'
   s.license = 'MIT'
   s.summary = 'Show AlertView With UIAlertController  GetBack With Block.'
