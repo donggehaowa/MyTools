@@ -11,7 +11,7 @@
  *
  */
 #import "FBDAdjustAuthorityTools.h"
-#import "Header.h"
+//#import "Header.h"
 static FBDAdjustAuthorityTools*sigleTone;
 @implementation FBDAdjustAuthorityTools
 
