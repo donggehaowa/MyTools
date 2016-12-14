@@ -167,3 +167,24 @@
 
 # 总结：
 ### 约束布局确实快而便捷，但是用动画的时候使用UIView的类Block方法动画貌似行不通，非要用BaseAnimation 动画框架；其实Masonry到控件的具体显示最后还是用的Frame，所以这个工具还是有点用的，起码快速改变UI界面还是蛮便捷的，所以结合着用才是王道！
+# V2.1 版本新加功能  FBDAdjustAuthorityTools iOS 权限检测类
+
+```
+@interface FBDAdjustAuthorityTools : NSObject
+/**
+ *      @author 冯宝东
+ *
+ *      单列构造方法
+ *
+ *      @return 单列
+ */
++(instancetype)defaultTools;
+// 检测相机是佛可用
+-(BOOL)checkoutIphoneTakePhotosIsAvailable;
+// 检测相册是否可用
+-(BOOL)checkoutIphoneLibrarysIsAvailable;
+// 检测麦克风是否可用
+-(BOOL)checkoutIphoneTakeAudioIsAvailable;
+@end
+
+```
